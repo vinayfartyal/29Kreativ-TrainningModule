@@ -27,58 +27,45 @@ div.socialmedia-icons {
     justify-content: space-between;
 }
 
-.fa-sm{
-    line-height: 1.2900;
-}
-
-.fa-brands {
-    color: #EAEAEA;
-    opacity: 0.6;
-}
-
-.vklogo{
-    opacity: 0.6;
-    height: 17px;
-    width: 19px;
-    padding-top: 2px;
-
-}
-
-/* .fa-pinterest-p{
-    padding-left: 2px;
-    padding-bottom: 3px;
-} */
-
-.fa-google-plus-g{
-       font-size: 1.1em !important;
-       line-height: 1.200 !important;
+.social-custom-icon {
+    color: #ffffff;
+    opacity: 0.380;
 }
 
 .login-icons {
-    height: 25px;
-    width: 164px;
+    width: 166px;
+    height: 21px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.sign_in {
+.login-icons-colors, .language-icon-color {
+    color: #ffffff;
+    opacity: 0.380;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.sign-in-logo {
     opacity: 0.502;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 12px;
     line-height: 27px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat";
 }
 
-.line {
+.vertical-logo {
     opacity: 0.380;
     width: 1px;
     height: 20px;
     background-color: #b4b4b4;
 }
 
-.eng {
+.eng-logo{
     opacity: 0.502;
     font-size: 16px;
     letter-spacing: 1px;
@@ -86,75 +73,4 @@ div.socialmedia-icons {
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat";
-}
-
-.material-symbols-outlined {
-    color: #EAEAEA;
-    opacity: 0.6;
-    margin: 0px;
-    font-size: 18px !important;
-    line-height: 1.5 !important;
-}
-
-div.menu {
-    height: 800px;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.871;
-    background-image: url('images/background_image.jpg');
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    font-size: 24px;
-    letter-spacing: 2px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Montserrat";
-}
-
-.search-icon-cart {
-    display: flex;
-    justify-content: space-around;
-}
-
-.logo-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.home-container {
-    width: 790px;
-    height: 33px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.home-icons {
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Montserrat";
-}
-
-.arrow_down {
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 90px;
-    color: #ffffff;
-    font-family: "Material Icons";
-    text-align: center;
-}
-
-.search-icon-cart {
-    height: 36px;
-    width: 146px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
