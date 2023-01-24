@@ -40,7 +40,19 @@ div.socialmedia-icons {
     align-items: center;
 }
 
-.login-icons-colors, .language-icon-color {
+.login-icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.language-icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-custom-icon {
     color: #ffffff;
     opacity: 0.380;
 }
@@ -51,26 +63,53 @@ div.socialmedia-icons {
 
 .sign-in-logo {
     opacity: 0.502;
-    font-size: 12px;
+    letter-spacing: 0.5px;
     line-height: 27px;
+    font-size: 12px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat";
+    margin-right: 4px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .vertical-logo {
     opacity: 0.380;
-    width: 1px;
-    height: 20px;
+    width: 0.5px;
+    height: 22px;
     background-color: #b4b4b4;
 }
 
-.eng-logo{
+span.material-icons.md-18.login-custom-icon {
+    margin-right: 5px;
+}
+
+span.material-icons.md-18.language-custom-icon {
+    margin-right: 8px;
+}
+
+.language-custom-icon {
+    color: #ffffff;
+    opacity: 0.380;
+    line-height: 90px;
+}
+
+.eng-logo {
     opacity: 0.502;
-    font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0.7px;
     line-height: 27px;
+    font-size: 12px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat";
+    /* margin-left: 2px; */
+}
+
+.arrow-custom-icon {
+    opacity: 0.502;
+    line-height: 90px;
+    color: #ffffff;
 }
