@@ -12,8 +12,7 @@ div.top-container {
     align-items: center;
 }
 
-.custom-container,
-.menu-container {
+.custom-container {
     width: 1170px;
     height: 40px;
     display: flex;
@@ -118,4 +117,30 @@ a {
     line-height: 90px;
     color: #ffffff;
     width: 15px;
+}
+
+.main-menu-container {
+    height: 800px;
+    background: linear-gradient(rgba(33, 33, 33, 0.87), rgba(33, 33, 33, 0.87)), url('images/bg_image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu-content {
+    height: 72px;
+    width: 1170px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 92px;
+    height: 25px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 12px
 }
