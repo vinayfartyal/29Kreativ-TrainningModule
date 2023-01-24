@@ -38,12 +38,14 @@ div.socialmedia-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2px;
 }
 
 .login-icon-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 2px;
 }
 
 .language-icon-container {
@@ -55,6 +57,7 @@ div.socialmedia-icons {
 .login-custom-icon {
     color: #ffffff;
     opacity: 0.380;
+    margin-right: 5px;
 }
 
 .material-icons.md-18 {
@@ -63,11 +66,11 @@ div.socialmedia-icons {
 
 .sign-in-logo {
     opacity: 0.502;
-    letter-spacing: 0.5px;
+    /* letter-spacing: 0.1px; */
     line-height: 27px;
     font-size: 12px;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Montserrat";
     margin-right: 4px;
 }
@@ -78,32 +81,25 @@ a {
 
 .vertical-logo {
     opacity: 0.380;
-    width: 0.5px;
+    width: 1.5px;
     height: 22px;
     background-color: #b4b4b4;
-}
-
-span.material-icons.md-18.login-custom-icon {
-    margin-right: 5px;
-}
-
-span.material-icons.md-18.language-custom-icon {
-    margin-right: 8px;
 }
 
 .language-custom-icon {
     color: #ffffff;
     opacity: 0.380;
     line-height: 90px;
+    margin-right: 8px;
 }
 
 .eng-logo {
     opacity: 0.502;
-    letter-spacing: 0.7px;
+    /* letter-spacing: 0.1px; */
     line-height: 27px;
     font-size: 12px;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Montserrat";
     /* margin-left: 2px; */
 }
@@ -112,4 +108,5 @@ span.material-icons.md-18.language-custom-icon {
     opacity: 0.502;
     line-height: 90px;
     color: #ffffff;
+    width: 15px;
 }
