@@ -133,6 +133,7 @@ a {
     width: 1170px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -143,4 +144,89 @@ a {
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 12px
+}
+
+.home-container {
+    width: 781px;
+    height: 47px;
+    margin-top: 28px;
+    margin-left: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-icon {
+    background-color: white;
+    width: 116px;
+    height: 38px;
+    margin-right: 16px
+}
+
+.home-tag {
+    width: 79px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.home-tag-arrow-down {
+    margin-left: 3px;
+}
+
+.pink-bar {
+    width: 80px;
+    height: 4px;
+    background-color: #ff4081;
+    margin-left: 11px;
+}
+
+.portfolio-tag {
+    width: 107px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-tag {
+    width: 59px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages-tag {
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-tag {
+    width: 62px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.components-tag {
+    width: 129px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-tag {
+    width: 99px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 34px;
+}
+
+.tags-styling {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 900;
 }
