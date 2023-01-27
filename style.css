@@ -275,8 +275,16 @@ a {
     flex-direction: column;
     align-items: center;
     margin-top: 23px;
-    margin-left: 39px;
+    margin-left: 77px;
 
+}
+
+.ways {
+    width: 875px;
+}
+
+.building {
+    width: 815px;
 }
 
 .readmore-container {
@@ -297,4 +305,21 @@ a {
     font-weight: 400;
     margin-left: 26px;
     margin-top: 5px;
+}
+
+.author-likes-cmnts {
+    width: 236px;
+    height: 161px;
+    margin-top: 78px;
+    margin-left: 464px;
+}
+
+.ellipse {
+    margin-left: 606px;
+    margin-top: 72px;
+    width: 52px;
+    height: 52px;
+    border-radius: 25px;
+    background-color: #eeeeee;
+    background-image: url('images/henry.jpg');
 }
