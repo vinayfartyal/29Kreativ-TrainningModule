@@ -295,6 +295,8 @@ a {
     background-color: #303f9f;
     margin-top: 43px;
     margin-left: 364px;
+    display: flex;
+    align-items: center;
 }
 
 .read-fontsize {
@@ -322,4 +324,58 @@ a {
     border-radius: 25px;
     background-color: #eeeeee;
     background-image: url('images/henry.jpg');
+}
+
+div.author {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 585px;
+    margin-top: 11px;
+}
+
+div.date {
+    opacity: 0.541;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 569px;
+    margin-top: -2px;
+}
+
+.date .time {
+    margin-left: 5px;
+}
+
+div.comments-likes {
+    margin-left: 510px;
+    margin-top: 25px;
+    opacity: 0.541;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+    height: 16px;
+}
+
+div.comment {
+    width: 124px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.like {
+    width: 83px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
 }
