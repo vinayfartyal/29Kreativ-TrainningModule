@@ -77,6 +77,14 @@ div.socialmedia-icons {
     font-size: 18px;
 }
 
+.material-icons.md-20 {
+    font-size: 20px;
+}
+
+.tags-styling .home-tag-arrow-down {
+    line-height: 17px;
+}
+
 .sign-in-logo {
     opacity: 0.502;
     line-height: 27px;
@@ -139,7 +147,7 @@ a {
     width: 92px;
     height: 25px;
     font-size: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 12px
@@ -152,6 +160,10 @@ a {
     margin-left: 37px;
     display: flex;
     justify-content: space-between;
+}
+
+.home-tag .home-tag-arrow-down {
+    margin-left: 0px;
 }
 
 .home-tag {
@@ -230,6 +242,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3px;
 }
 
 .search-icon-lines {
@@ -237,11 +250,16 @@ a {
     width: 1px;
     height: 30px;
     background-color: #b4b4b4;
+    margin-bottom: 4px;
 }
 
 .search-icon-colors {
     color: #ffffff;
 }
+
+/* .shooping-cart-icon-margin {
+    margin-left: 5px;
+} */
 
 .caption-container {
     width: 812px;
@@ -274,10 +292,24 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 23px;
+    margin-top: 21px;
     margin-left: 77px;
 
 }
+
+.search-icon-width {
+    width: 21px;
+}
+
+
+.favorite-icon-width {
+    width: 22px;
+}
+
+.cart-icon-width {
+    width: 21px;
+}
+
 
 .ways {
     width: 875px;
@@ -379,3 +411,57 @@ div.like {
     display: flex;
     justify-content: space-between;
 }
+
+.sort-blog-container {
+    height: 61px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.custom-sort-blog {
+    opacity: 0.871;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.custom-blog-navbar {
+    width: 625px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-blog-navbar .all {
+    width: 81px;
+    height: 30px;
+    background-color: yellow;
+}
+
+.custom-blog-navbar .photography {
+    width: 151px;
+    height: 30px;
+    background-color: pink;
+}
+
+.custom-blog-navbar .lifestyle {
+    width: 122px;
+    height: 30px;
+    background-color: pink;
+}
+
+/* .custom-blog-navbar .trip {
+    width: 151px;
+    height: 30px;
+    background-color: pink;
+}
+
+.custom-blog-navbar .inspirtion {
+    width: 122px;
+    height: 30px;
+    background-color: pink;
+} */
