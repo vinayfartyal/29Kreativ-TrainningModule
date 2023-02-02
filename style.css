@@ -136,32 +136,31 @@ a {
     background: linear-gradient(rgba(33, 33, 33, 0.87), rgba(33, 33, 33, 0.87)), url('images/bg_image.jpg');
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu-subcontainer {
+    width: 1170px;
 }
 
 .main-menu-content {
-    height: 72px;
-    width: 1170px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 46px;
 }
 
 .logo {
-    width: 92px;
-    height: 25px;
     font-size: 24px;
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 700;
-    margin-bottom: 12px
+    margin-bottom: 7px
 }
 
 .home-container {
-    width: 781px;
-    height: 47px;
-    margin-top: 28px;
-    margin-left: 37px;
+    margin-left: 80px;
+    margin-top: 27px;
     display: flex;
     justify-content: space-between;
 }
@@ -239,9 +238,31 @@ a {
     font-weight: 900;
 }
 
+.home-container .portfolio-tag {
+    margin-left: 19px;
+}
+
+.home-container .blog-tag {
+    margin-left: 27px;
+}
+
+.home-container .pages-tag {
+    margin-left: 30px;
+}
+
+.home-container .shop-tag {
+    margin-left: 30px;
+}
+
+.home-container .components-tag {
+    margin-left: 30px;
+}
+
+.home-container .features-tag {
+    margin-left: 27px;
+}
+
 .search-icon {
-    width: 116px;
-    height: 38px;
     margin-right: 16px;
     display: flex;
     justify-content: space-between;
@@ -261,27 +282,17 @@ a {
     color: #ffffff;
 }
 
-.caption-container {
-    height: 222px;
-    margin-left: 183px;
-    margin-top: 210px;
-    display: flex;
-    flex-direction: column;
-}
-
 .inspiration-container {
-    height: 16px;
     opacity: 0.702;
     font-size: 20px;
-    letter-spacing: 1px;
     color: #ffffff;
     font-weight: 400;
-    margin-left: 380px;
+    display: flex;
+    justify-content: center;
+    margin-top: 210px;
 }
 
 .millennials-container {
-    width: 814px;
-    height: 87px;
     opacity: 1.702;
     font-size: 42px;
     letter-spacing: 0.8px;
@@ -290,22 +301,30 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 21px;
+    margin-top: 14px;
     margin-left: 77px;
 
 }
 
+.search-icon .search-icon-margin {
+    margin-right: 14px;
+}
+
 .search-icon-width {
     width: 21px;
+
 }
 
 
 .favorite-icon-width {
     width: 22px;
+    margin-left: 10px;
+    margin-right: 14px;
 }
 
 .cart-icon-width {
     width: 21px;
+    margin-left: 14px;
 }
 
 
@@ -323,20 +342,18 @@ a {
     border-radius: 22px;
     filter: drop-shadow(0px 17px 12px rgba(48, 63, 159, 0.2));
     background-color: #303f9f;
-    margin-top: 45px;
-    margin-left: 364px;
+    margin-top: 30px;
+    margin-left: 501px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .read-fontsize {
     font-size: 18px;
     letter-spacing: 0.5px;
-    line-height: 36px;
     color: #ffffff;
     font-weight: 400;
-    margin-left: 26px;
-    margin-top: 5px;
 }
 
 .author-likes-cmnts {
@@ -347,8 +364,8 @@ a {
 }
 
 .ellipse {
-    margin-left: 606px;
-    margin-top: 72px;
+    margin-left: 560px;
+    margin-top: 79px;
     width: 52px;
     height: 52px;
     border-radius: 25px;
@@ -359,22 +376,22 @@ a {
 div.author {
     font-size: 14px;
     letter-spacing: 0.5px;
-    line-height: 27px;
     color: #ffffff;
     font-weight: 700;
-    margin-left: 585px;
-    margin-top: 11px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
 }
 
 div.date {
     opacity: 0.541;
     font-size: 12px;
     letter-spacing: 1px;
-    line-height: 27px;
     color: #ffffff;
     font-weight: 400;
-    margin-left: 570px;
-    margin-top: -2px;
+    margin-left: 525px;
+    margin-top: 10px;
     word-spacing: -0.8px;
 }
 
@@ -383,12 +400,11 @@ div.date {
 }
 
 div.comments-likes {
-    margin-left: 512px;
-    margin-top: 26px;
+    margin-left: 467px;
+    margin-top: 31px;
     opacity: 0.541;
     font-size: 12px;
     letter-spacing: 0.5px;
-    line-height: 27px;
     color: #ffffff;
     font-weight: 400;
     display: flex;
