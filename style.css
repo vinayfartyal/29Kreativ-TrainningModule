@@ -155,30 +155,18 @@ a {
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 700;
-    margin-bottom: 7px
+    margin-top: 13px;
 }
 
 .home-container {
-    margin-left: 80px;
-    margin-top: 27px;
+    margin-left: 50px;
+    margin-top: 19px;
     display: flex;
     justify-content: space-between;
 }
 
-.home-tag .home-tag-arrow-down {
-    margin-left: 0px;
-}
-
-.home-tag {
-    width: 79px;
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 20px;
-}
-
 .home-tag-arrow-down {
-    margin-left: 3px;
+    margin-left: 4px;
 }
 
 .pink-bar {
@@ -188,78 +176,14 @@ a {
     margin-left: 11px;
 }
 
-.portfolio-tag {
-    width: 107px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.blog-tag {
-    width: 59px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.pages-tag {
-    width: 70px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.shop-tag {
-    width: 62px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.components-tag {
-    width: 129px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.features-tag {
-    width: 99px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 34px;
-}
-
 .tags-styling {
     font-size: 14px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 900;
-}
-
-.home-container .portfolio-tag {
-    margin-left: 19px;
-}
-
-.home-container .blog-tag {
-    margin-left: 27px;
-}
-
-.home-container .pages-tag {
-    margin-left: 30px;
-}
-
-.home-container .shop-tag {
-    margin-left: 30px;
-}
-
-.home-container .components-tag {
-    margin-left: 30px;
-}
-
-.home-container .features-tag {
-    margin-left: 27px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
 }
 
 .search-icon {
@@ -267,7 +191,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3px;
+    margin-top: 20px;
 }
 
 .search-icon-lines {
@@ -289,7 +213,7 @@ a {
     font-weight: 400;
     display: flex;
     justify-content: center;
-    margin-top: 210px;
+    margin-top: 228px;
 }
 
 .millennials-container {
@@ -484,51 +408,15 @@ div.like {
 
 }
 
-.custom-blog-navbar .photography {
-    border-radius: 15px;
-    background-color: #f5f5f5;
-    opacity: 0.871;
-    font-size: 12px;
-    color: #000000;
-    font-weight: 530;
-    text-align: center;
-    padding: 10px 25px 6px 26px;
-}
-
-.custom-blog-navbar .lifestyle {
-    border-radius: 15px;
-    background-color: #f5f5f5;
-    opacity: 0.871;
-    font-size: 12px;
-    color: #000000;
-    font-weight: 530;
-    text-align: center;
-    padding: 10px 25px 6px 26px;
-}
-
-.custom-blog-navbar .trip {
-    border-radius: 15px;
-    background-color: #f5f5f5;
-    opacity: 0.871;
-    font-size: 12px;
-    color: #000000;
-    font-weight: 530;
-    text-align: center;
-    padding: 10px 25px 6px 26px;
-}
-
-.custom-blog-navbar .inspirtion {
-    border-radius: 15px;
-    background-color: #f5f5f5;
-    opacity: 0.871;
-    font-size: 12px;
-    color: #000000;
-    font-weight: 530;
-    text-align: center;
-    padding: 10px 25px 6px 22px;
-}
-
 .navbarbutton-margin {
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    opacity: 0.871;
+    font-size: 12px;
+    color: #000000;
+    font-weight: 530;
+    text-align: center;
+    padding: 10px 25px 6px 26px;
     margin-left: 17px;
 }
 
