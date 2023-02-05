@@ -456,6 +456,10 @@ div.like {
     font-size: 60px;
 }
 
+.material-icons.md-17 {
+    font-size: 17px;
+}
+
 .play-icon {
     color: #ffffff;
     display: flex;
@@ -468,20 +472,28 @@ div.like {
 
 .lifestyle-logo {
     font-size: 11px;
-    letter-spacing: 1px;
     color: #ffffff;
     font-weight: 400;
     margin-top: ;
-    margin-top: 148px;
-    margin-left: 19px;
+    margin-top: 149px;
+    margin-left: 20px;
 }
 
+.forum-icon-margin {
+    margin-right: 2px;
+}
+
+.forum-icon-container {
+    margin-right: 17px;
+}
 
 .comments-likes-bodyimage {
     float: right;
     color: #ffffff;
-    margin-right: 17px;
-    margin-top: -19px;
+    margin-right: 21px;
+    position: relative;
+    bottom: 15px;
+
 }
 
 .icon-color {
@@ -490,10 +502,12 @@ div.like {
 
 .seven {
     font-size: 12px;
+    vertical-align: text-top;
 }
 
 .fifteen {
     font-size: 12px;
+    vertical-align: text-top;
 }
 
 .henry-little-content {
