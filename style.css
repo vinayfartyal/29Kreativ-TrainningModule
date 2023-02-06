@@ -602,7 +602,9 @@ div.like {
     color: #000000;
 }
 
-.james-leman-blog {
+.james-leman-blog,
+.james-leman-second-blog,
+.benjamin-blog {
     display: flex;
     width: 820px;
     height: 165px;
@@ -619,21 +621,29 @@ div.like {
     height: 165px;
 }
 
-.james-leman-blog .right-container {
+.james-leman-blog .right-container,
+.james-leman-second-blog .right-container,
+.benjamin-blog .right-container {
     width: 560px;
 }
 
-.james-leman-blog .play-icon {
+.james-leman-blog .play-icon,
+.james-leman-second-blog .play-icon,
+.benjamin-blog .play-icon {
     color: #ffffff;
 }
 
-.james-leman-blog .play-icon-align {
+.james-leman-blog .play-icon-align,
+.james-leman-second-blog .play-icon-align,
+.benjamin-blog .play-icon-align {
     margin-top: 59px;
     margin-left: 106px;
 }
 
 
-.james-leman-blog .inspiration-logo {
+.james-leman-blog .inspiration-logo,
+.james-leman-second-blog .inspiration-logo,
+.benjamin-blog .inspiration-logo {
     font-size: 11px;
     letter-spacing: 1px;
     color: #ffffff;
@@ -644,7 +654,9 @@ div.like {
     vertical-align: text-top;
 }
 
-.james-leman-blog .comments-likes-bodyimage {
+.james-leman-blog .comments-likes-bodyimage,
+.james-leman-second-blog .comments-likes-bodyimage,
+.benjamin-blog .comments-likes-bodyimage {
     margin-top: 132px;
     float: right;
     color: #ffffff;
@@ -652,7 +664,9 @@ div.like {
 
 }
 
-.james-leman-blog .top .heading {
+.james-leman-blog .top .heading,
+.james-leman-second-blog .top .heading,
+.benjamin-blog .top .heading {
     opacity: 0.871;
     letter-spacing: 1px;
     font-weight: 700;
@@ -661,7 +675,9 @@ div.like {
 }
 
 
-.james-leman-blog .top .paragraph {
+.james-leman-blog .top .paragraph,
+.james-leman-second-blog .top .paragraph,
+.benjamin-blog .top .paragraph {
     opacity: 0.871;
     font-size: 16px;
     letter-spacing: 0.5px;
@@ -671,7 +687,9 @@ div.like {
     margin-top: 10px;
 }
 
-.james-leman-blog .right-container .line {
+.james-leman-blog .right-container .line,
+.james-leman-second-blog .right-container .line,
+.benjamin-blog .right-container .line {
     opacity: 0.122;
     width: 560px;
     height: 0.3px;
@@ -679,10 +697,17 @@ div.like {
     margin-top: 20px;
 }
 
+.james-leman-blog .bottom .container,
+.james-leman-second-blog .bottom .container,
+.benjamin-blog .bottom .container {
+    display: flex;
+    align-items: center;
+}
+
+
 .james-leman-blog .bottom .james-image {
     margin-top: 11px;
     margin-left: 20px;
-    display: inline-block;
     background-position: center;
     background-image: url('images/james.jpg');
     width: 50px;
@@ -690,11 +715,18 @@ div.like {
     border-radius: 25px;
 }
 
-.james-leman-blog .bottom .author-name {
-    vertical-align: top;
-    margin-left: 7px;
-    display: inline-block;
-    margin-top: 17px;
+.james-leman-blog .container .date-name-container,
+.james-leman-second-blog .container .date-name-container,
+.benjamin-blog .container .date-name-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 11px;
+}
+
+.james-leman-blog .bottom .author-name,
+.james-leman-second-blog .bottom .author-name,
+.benjamin-blog .bottom .author-name {
     opacity: 0.871;
     font-size: 14px;
     letter-spacing: 0.5px;
@@ -702,11 +734,56 @@ div.like {
     font-weight: 500;
 }
 
-.james-leman-blog .bottom .date {
+.james-leman-blog .bottom .date,
+.james-leman-second-blog .bottom .date,
+.benjamin-blog .bottom .date {
     display: inline-block;
+    margin-top: 7px;
     opacity: 0.541;
     font-size: 12px;
     letter-spacing: 1px;
     color: #212121;
     font-weight: 400;
+}
+
+.james-leman-blog .bottom .more_vert_icon,
+.james-leman-second-blog .bottom .more_vert_icon,
+.benjamin-blog .bottom .more_vert_icon {
+    margin-top: 16px;
+    margin-left: 339px;
+}
+
+.james-leman-second-blog .skateboard-image {
+    display: inline-block;
+    background-image: url('images/skateboard.jpg');
+    width: 260px;
+    height: 165px;
+}
+
+.james-leman-second-blog .bottom .james-second-image {
+    margin-top: 11px;
+    margin-left: 20px;
+    background-position: center;
+    background-image: url('images/james_2.jpg');
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.benjamin-blog .sea-image {
+    display: inline-block;
+    background-image: url('images/sea_view.jpg');
+    width: 260px;
+    height: 165px;
+}
+
+.benjamin-blog .benjamin-image {
+    margin-top: 11px;
+    margin-left: 20px;
+    background-position: center;
+    background-image: url('images/benjamin.jpg');
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+
 }
