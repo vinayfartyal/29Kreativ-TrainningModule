@@ -290,10 +290,9 @@ a {
 .ellipse {
     margin-left: 560px;
     margin-top: 79px;
-    width: 52px;
-    height: 52px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    background-color: #eeeeee;
     background-image: url('images/henry.jpg');
 }
 
@@ -430,20 +429,22 @@ div.like {
 .main-body-child-content {
     margin-top: 31px;
     width: 1170px;
+    display: flex;
+    flex-direction: column;
 }
 
 .henry-little-blog {
-    width: 820px;
-    height: 620px;
     border-radius: 4px;
     filter: drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.12));
     background-color: #ffffff;
     float: left;
+    width: 820px;
+    height: 620px;
 }
 
 .body-image {
     background-image: url('images/body_pic.jpg');
-    width: 820px;
+    /* width: 818px; */
     height: 420px;
     border-radius: 4px;
     background-color: #212121;
@@ -471,12 +472,13 @@ div.like {
 }
 
 .lifestyle-logo {
+    width: 61px;
+    height: 9px;
     font-size: 11px;
     color: #ffffff;
     font-weight: 400;
-    margin-top: ;
     margin-top: 149px;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 
 .forum-icon-margin {
@@ -492,7 +494,7 @@ div.like {
     color: #ffffff;
     margin-right: 21px;
     position: relative;
-    bottom: 15px;
+    bottom: 11px;
 
 }
 
@@ -512,12 +514,10 @@ div.like {
 
 .henry-little-content {
     height: 201px;
+    display: inline-block;
 }
 
 .henry-little-content .content {
-    display: inline-block;
-    width: 767px;
-    height: 110px;
     margin: 13px;
 }
 
@@ -528,15 +528,56 @@ div.like {
     color: #000000;
     font-weight: 700;
     word-spacing: 2px;
-    margin-left: 7px
+    margin-left: 7px;
 }
 
 .henry-little-content .content .paragraph {
     opacity: 0.871;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
     line-height: 26px;
     color: #000000;
     font-weight: 400;
+    margin-left: 5px;
     font-family: "Open Sans";
+}
+
+.henry-little-content .author-image {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-image: url('images/henry_2.jpg');
+    margin-top: 36px;
+    margin-left: 5px;
+}
+
+.henry-little-content .author-name {
+    display: inline-block;
+    opacity: 0.871;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 400;
+    vertical-align: top;
+    margin-top: 42px;
+    margin-left: 6px;
+}
+
+.henry-little-content .author-date {
+    width: 130px;
+    margin-top: -23px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 65px;
+    opacity: 0.541;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #212121;
+    font-weight: 400;
+}
+
+.henry-little-content .more_vert_icon {
+    display: inline-block;
+    float: right;
 }
