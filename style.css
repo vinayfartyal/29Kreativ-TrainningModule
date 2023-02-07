@@ -678,6 +678,7 @@ div.like {
 .james-leman-blog .top .paragraph,
 .james-leman-second-blog .top .paragraph,
 .benjamin-blog .top .paragraph {
+    line-height: 20px;
     opacity: 0.871;
     font-size: 16px;
     letter-spacing: 0.5px;
@@ -694,7 +695,7 @@ div.like {
     width: 560px;
     height: 0.3px;
     background-color: #000000;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .james-leman-blog .bottom .container,
@@ -720,7 +721,7 @@ div.like {
 .benjamin-blog .container .date-name-container {
     display: flex;
     flex-direction: column;
-    margin-top: 8px;
+    margin-top: 9px;
     margin-left: 11px;
 }
 
@@ -738,10 +739,10 @@ div.like {
 .james-leman-second-blog .bottom .date,
 .benjamin-blog .bottom .date {
     display: inline-block;
-    margin-top: 7px;
+    margin-top: 8px;
     opacity: 0.541;
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: #212121;
     font-weight: 400;
 }
@@ -786,4 +787,19 @@ div.like {
     height: 50px;
     border-radius: 25px;
 
+}
+
+.three-container {
+    display: flex;
+    margin-top: 20px;
+    height: 422px;
+    background-color: #303f9f;
+}
+
+.three-container .first-blog,
+.three-container .second-blog,
+.three-container .third-blog {
+    /* background-color: white; */
+    width: 261px;
+    border-radius: 4px;
 }
