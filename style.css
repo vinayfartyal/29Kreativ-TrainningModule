@@ -537,12 +537,12 @@ div.like {
 
 .henry-little-content .content .paragraph {
   opacity: 0.871;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 1px;
   line-height: 26px;
   color: #000000;
   font-weight: 400;
-  margin-left: 5px;
+  margin-left: 8px;
   font-family: "Open Sans";
 }
 
@@ -584,8 +584,8 @@ div.like {
 .henry-little-content .more_vert_icon {
   display: inline-block;
   float: right;
-  margin-right: -40px;
-  margin-top: -33px;
+  margin-right: -31px;
+  margin-top: -32px;
 }
 
 .black-icon-color {
@@ -647,14 +647,13 @@ div.like {
 }
 
 .three-container .trip-logo {
-  margin-top: 134px;
-  margin-left: 19px;
+  position: relative;
+  top: 130px;
+  left: 19px;
   font-size: 11px;
   letter-spacing: 1px;
   color: #ffffff;
   font-weight: 400;
-  display: inline-block;
-  vertical-align: text-top;
 }
 
 .james-leman-blog .comments-likes-bodyimage,
@@ -680,9 +679,9 @@ div.like {
 .james-leman-blog .top .paragraph,
 .james-leman-second-blog .top .paragraph,
 .benjamin-blog .top .paragraph {
-  line-height: 20px;
+  line-height: 21px;
   opacity: 0.871;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-family: "Open Sans";
@@ -924,17 +923,16 @@ div.like {
   border-radius: 4px;
   background-image: url("images/black-men.jpg");
   height: 160px;
-  display: inline-block;
-  width: 261px;
 }
 
 .third-blog .arrow-icons {
+  position: relative;
+  top: 60px;
+  left: 11px;
   height: 37px;
   width: 240px;
   display: flex;
   justify-content: space-between;
-  margin-top: 58px;
-  margin-left: 11px;
 }
 
 .third-blog .left-arrow {
@@ -953,4 +951,21 @@ div.like {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.third-blog .life-logo {
+  top: 93px;
+  left: 19px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  position: relative;
+}
+
+.third-blog .comment-like {
+  position: relative;
+  top: 95px;
+  right: 22px;
+  float: right;
+  color: #ffffff;
 }
