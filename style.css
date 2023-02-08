@@ -14,7 +14,6 @@ div.top-container {
 
 .custom-container {
   width: 1170px;
-  height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -516,7 +515,7 @@ div.like {
   vertical-align: text-top;
 }
 
-.henry-little-content .content h4 {
+.henry-little-blog .content h4 {
   font-size: 18px;
   line-height: 29px;
   color: #212121;
@@ -526,7 +525,7 @@ div.like {
   margin-left: 20px;
 }
 
-.henry-little-content .content p {
+.henry-little-blog .content p {
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 26px;
@@ -537,31 +536,31 @@ div.like {
   font-family: "Open Sans";
 }
 
-.henry-little-content .line {
+.henry-little-blog .line {
   margin-top: 15px;
   height: 1px;
   background-color: #e0e0e0;
 }
 
-.henry-little-content .content-bottom-part {
+.henry-little-blog .content-bottom-part {
   display: flex;
   margin-left: 20px;
   margin-top: 19px;
 }
 
-.henry-little-content .author-image {
+.henry-little-blog .author-image {
   width: 50px;
   height: 50px;
   border-radius: 25px;
   background-image: url("images/henry_2.jpg");
 }
 
-.henry-little-content .name-and-date-container {
+.henry-little-blog .name-and-date-container {
   display: flex;
   flex-direction: column;
 }
 
-.henry-little-content .author-name {
+.henry-little-blog .author-name {
   margin-top: 6px;
   margin-left: 10px;
   font-size: 14px;
@@ -570,8 +569,8 @@ div.like {
   font-weight: 400;
 }
 
-.henry-little-content .author-date {
-  margin-top: 7px;
+.henry-little-blog .author-date {
+  margin-top: 8px;
   margin-left: 9px;
 }
 
@@ -582,7 +581,7 @@ div.like {
   font-weight: 400;
 }
 
-.henry-little-content .more_vert_icon {
+.henry-little-blog .more_vert_icon {
   margin-left: 592px;
   margin-top: 13px;
 }
@@ -819,7 +818,7 @@ div.like {
   opacity: 0.871;
   font-size: 14px;
   letter-spacing: 1px;
-  color: #000000;
+  color: #212121;
   font-weight: 700;
 }
 
@@ -827,12 +826,11 @@ div.like {
 .second-blog .content-part .paragraph,
 .third-blog .content-part .paragraph {
   margin-left: 20px;
-  margin-top: 5px;
-  opacity: 0.871;
+  margin-top: 6px;
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 21px;
-  color: #000000;
+  color: #212121;
   font-weight: 400;
   font-family: "Open Sans";
 }
@@ -847,10 +845,13 @@ div.like {
   background-color: #000000;
 }
 
+.first-blog .about-author-container,
+.second-blog .about-author-container,
+.third-blog .about-author-container {
+  display: flex;
+}
+
 .first-blog .james-lamen-image {
-  position: relative;
-  left: 20px;
-  top: 16px;
   background-position: center;
   background-image: url("images/james.jpg");
   width: 50px;
@@ -858,10 +859,14 @@ div.like {
   border-radius: 25px;
 }
 
+.first-blog .authorname-date-container,
+.second-blog .authorname-date-container,
+.third-blog .authorname-date-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .second-blog .miller-image {
-  position: relative;
-  left: 20px;
-  top: 16px;
   background-position: center;
   background-image: url("images/james_2.jpg");
   width: 50px;
@@ -870,9 +875,6 @@ div.like {
 }
 
 .third-blog .henry-little-image {
-  position: relative;
-  left: 20px;
-  top: 16px;
   background-position: center;
   background-image: url("images/henry_2.jpg");
   width: 50px;
@@ -883,30 +885,20 @@ div.like {
 .first-blog .name,
 .second-blog .name,
 .third-blog .name {
-  position: relative;
-  left: 80px;
-  bottom: 29px;
-  opacity: 0.871;
   font-size: 14px;
   letter-spacing: 1px;
-  color: #000000;
+  color: #212121;
   font-weight: 400;
 }
 
 .first-blog .dateandtime,
 .second-blog .dateandtime,
 .third-blog .dateandtime {
-  position: relative;
-  left: 80px;
-  bottom: 21px;
 }
 
 .first-blog .more_vert,
 .second-blog .more_vert,
 .third-blog .more_vert {
-  position: fixed;
-  left: 227px;
-  bottom: 19px;
 }
 
 .second-blog .girl-hat-image {
