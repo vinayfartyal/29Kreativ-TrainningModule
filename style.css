@@ -884,8 +884,7 @@ div.like {
 
 .first-blog .name,
 .second-blog .name,
-.third-blog .name,
-.two-container .name {
+.third-blog .name {
   position: relative;
   left: 80px;
   bottom: 29px;
@@ -898,8 +897,7 @@ div.like {
 
 .first-blog .dateandtime,
 .second-blog .dateandtime,
-.third-blog .dateandtime,
-.two-container .dateandtime {
+.third-blog .dateandtime {
   position: relative;
   left: 80px;
   bottom: 21px;
@@ -994,25 +992,27 @@ div.like {
   background-color: #ffffff;
 }
 
-.two-container .cloud9-image {
+.two-container .first-container .cloud9-image {
   height: 300px;
   border-radius: 4px;
   background-image: url("images/cloud9.jpg");
 }
 
-.two-container .life-style-logo {
+.two-container .first-container .life-style-logo,
+.two-container .second-container .life-style-logo {
   position: relative;
   top: 267px;
   left: 19px;
 }
 
-.two-container .comments-likes-bodyimage {
+.two-container .first-container .comments-likes-bodyimage,
+.two-container .second-container .comments-likes-bodyimage {
   position: relative;
   top: 252px;
   left: 294px;
 }
 
-.two-container .heading {
+.two-container .first-container .heading {
   margin-top: 13px;
   margin-left: 19px;
   font-size: 18px;
@@ -1021,7 +1021,8 @@ div.like {
   font-weight: 700;
 }
 
-.two-container .paragraph {
+.two-container .first-container .paragraph,
+.two-container .second-container .paragraph {
   margin-top: 7px;
   margin-left: 19px;
   font-size: 16px;
@@ -1032,12 +1033,64 @@ div.like {
   font-family: "Open Sans";
 }
 
-.two-container .james-lamen-image {
+.two-container .first-container .james-lamen-image {
   position: relative;
   left: 20px;
   top: 29px;
   background-position: center;
   background-image: url("images/james.jpg");
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.two-container .first-container .name,
+.two-container .second-container .name {
+  position: relative;
+  bottom: 16px;
+  left: 79px;
+  opacity: 0.871;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.two-container .first-container .dateandtime,
+.two-container .second-container .dateandtime {
+  position: relative;
+  left: 78px;
+  bottom: 7px;
+}
+
+.two-container .first-container .more_vert,
+.two-container .second-container .more_vert {
+  position: relative;
+  bottom: 38px;
+  left: 365px;
+}
+
+.two-container .second-container .girl-styding-image {
+  height: 300px;
+  border-radius: 4px;
+  background-image: url("images/girl-studying.jpg");
+}
+
+.two-container .second-container .heading {
+  margin-top: 13px;
+  margin-left: 19px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #3f51b5;
+  font-weight: 700;
+}
+
+.two-container .second-container .miller-image {
+  position: relative;
+  left: 20px;
+  top: 29px;
+  background-position: center;
+  background-image: url("images/james_2.jpg");
   width: 50px;
   height: 50px;
   border-radius: 25px;
