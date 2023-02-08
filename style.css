@@ -849,6 +849,8 @@ div.like {
 .second-blog .about-author-container,
 .third-blog .about-author-container {
   display: flex;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 .first-blog .james-lamen-image {
@@ -885,6 +887,8 @@ div.like {
 .first-blog .name,
 .second-blog .name,
 .third-blog .name {
+  margin-top: 6px;
+  margin-left: 11px;
   font-size: 14px;
   letter-spacing: 1px;
   color: #212121;
@@ -894,11 +898,23 @@ div.like {
 .first-blog .dateandtime,
 .second-blog .dateandtime,
 .third-blog .dateandtime {
+  margin-top: 8px;
+  margin-left: 9px;
 }
 
-.first-blog .more_vert,
-.second-blog .more_vert,
+.first-blog .more_vert {
+  margin-top: 22px;
+  margin-left: 35px;
+}
+
+.second-blog .more_vert {
+  margin-top: 22px;
+  margin-left: 19px;
+}
+
 .third-blog .more_vert {
+  margin-top: 22px;
+  margin-left: 52px;
 }
 
 .second-blog .girl-hat-image {
