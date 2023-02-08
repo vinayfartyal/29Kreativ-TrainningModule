@@ -479,11 +479,14 @@ div.like {
 .lifestyle-logo {
   width: 61px;
   height: 9px;
-  font-size: 11px;
-  color: #ffffff;
-  font-weight: 400;
   margin-top: 144px;
   margin-left: 18px;
+}
+
+.lifestyle-logo-styling {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 .forum-icon-margin {
@@ -571,9 +574,12 @@ div.like {
   position: relative;
   top: 5px;
   right: 32px;
+}
+
+.date-and-time-styling {
   opacity: 0.541;
   font-size: 12px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color: #212121;
   font-weight: 400;
 }
@@ -724,22 +730,12 @@ div.like {
   position: relative;
   bottom: 22px;
   right: 28px;
-  opacity: 0.541;
-  font-size: 12px;
-  letter-spacing: 1px;
-  color: #212121;
-  font-weight: 400;
 }
 
 .benjamin-blog .bottom .date {
   position: relative;
   bottom: 22px;
   right: 43px;
-  opacity: 0.541;
-  font-size: 12px;
-  letter-spacing: 1px;
-  color: #212121;
-  font-weight: 400;
 }
 
 .james-leman-blog .bottom .more_vert_icon,
@@ -794,7 +790,7 @@ div.like {
 .three-container {
   display: flex;
   margin-top: 20px;
-  height: 422px;
+  height: 420px;
   display: flex;
   justify-content: space-between;
   background-color: #f5f5f5;
@@ -804,7 +800,7 @@ div.like {
 .three-container .first-blog,
 .three-container .second-blog,
 .three-container .third-blog {
-  /* background-color: white; */
+  filter: drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.12));
   width: 261px;
   border-radius: 4px;
   background-color: #ffffff;
@@ -833,10 +829,10 @@ div.like {
 .second-blog .content-part .paragraph,
 .third-blog .content-part .paragraph {
   margin-left: 20px;
-  margin-top: 2px;
+  margin-top: 5px;
   opacity: 0.871;
   font-size: 14px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 21px;
   color: #000000;
   font-weight: 400;
@@ -846,22 +842,17 @@ div.like {
 .first-blog .horizontal-line,
 .second-blog .horizontal-line,
 .third-blog .horizontal-line {
-  margin-top: 28px;
+  margin-top: 25px;
   opacity: 0.122;
   width: 260px;
   height: 1px;
   background-color: #000000;
 }
 
-.first-blog .author-name-date-time,
-.second-blog .author-name-date-time,
-.third-blog .author-name-date-time {
-  display: flex;
-  margin-top: 17px;
-}
-
-.first-blog .author-name-date-time .james-lamen-image {
-  margin-left: 21px;
+.first-blog .james-lamen-image {
+  position: relative;
+  left: 20px;
+  top: 16px;
   background-position: center;
   background-image: url("images/james.jpg");
   width: 50px;
@@ -869,60 +860,10 @@ div.like {
   border-radius: 25px;
 }
 
-.third-blog .author-name-date-time .henry-little-image {
-  margin-left: 21px;
-  background-position: center;
-  background-image: url("images/henry_2.jpg");
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-}
-
-.first-blog .name-date-and-time,
-.second-blog .name-date-and-time,
-.third-blog .name-date-and-time {
-  display: flex;
-  flex-direction: column;
-  margin-left: 11px;
-}
-
-.first-blog .name,
-.second-blog .name,
-.third-blog .name {
-  opacity: 0.871;
-  font-size: 14px;
-  letter-spacing: 1px;
-  line-height: 27px;
-  color: #000000;
-  font-weight: 400;
-}
-
-.first-blog .dateandtime,
-.second-blog .dateandtime,
-.third-blog .dateandtime {
-  opacity: 0.541;
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  line-height: 18px;
-  color: #212121;
-  font-weight: 400;
-}
-
-.first-blog .more_vert,
-.second-blog .more_vert,
-.third-blog .more_vert {
-  margin-top: 21px;
-  margin-left: 36px;
-}
-
-.second-blog .girl-hat-image {
-  border-radius: 4px;
-  background-image: url("images/girl-with-hat.jpg");
-  height: 160px;
-}
-
-.second-blog .author-name-date-time .miller-image {
-  margin-left: 21px;
+.second-blog .miller-image {
+  position: relative;
+  left: 20px;
+  top: 16px;
   background-position: center;
   background-image: url("images/james_2.jpg");
   width: 50px;
@@ -930,9 +871,52 @@ div.like {
   border-radius: 25px;
 }
 
-.second-blog .second_more_vert {
-  margin-top: 21px;
-  margin-left: 19px;
+.third-blog .henry-little-image {
+  position: relative;
+  left: 20px;
+  top: 16px;
+  background-position: center;
+  background-image: url("images/henry_2.jpg");
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.first-blog .name,
+.second-blog .name,
+.third-blog .name,
+.two-container .name {
+  position: relative;
+  left: 80px;
+  bottom: 29px;
+  opacity: 0.871;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.first-blog .dateandtime,
+.second-blog .dateandtime,
+.third-blog .dateandtime,
+.two-container .dateandtime {
+  position: relative;
+  left: 80px;
+  bottom: 21px;
+}
+
+.first-blog .more_vert,
+.second-blog .more_vert,
+.third-blog .more_vert {
+  position: fixed;
+  left: 227px;
+  bottom: 19px;
+}
+
+.second-blog .girl-hat-image {
+  border-radius: 4px;
+  background-image: url("images/girl-with-hat.jpg");
+  height: 160px;
 }
 
 .third-blog .black-guy-image {
@@ -972,9 +956,6 @@ div.like {
 .third-blog .life-logo {
   top: 93px;
   left: 19px;
-  font-size: 12px;
-  color: #ffffff;
-  font-weight: 400;
   position: relative;
 }
 
@@ -984,4 +965,80 @@ div.like {
   right: 22px;
   float: right;
   color: #ffffff;
+}
+
+.dsp-flex-jst-spc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-container {
+  margin-top: 22px;
+  background-color: #f5f5f5;
+  height: 541px;
+}
+
+.two-container .first-container {
+  width: 400px;
+  height: 540px;
+  border-radius: 4px;
+  filter: drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.12));
+  background-color: #ffffff;
+}
+
+.two-container .second-container {
+  width: 400px;
+  height: 540px;
+  border-radius: 4px;
+  filter: drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.12));
+  background-color: #ffffff;
+}
+
+.two-container .cloud9-image {
+  height: 300px;
+  border-radius: 4px;
+  background-image: url("images/cloud9.jpg");
+}
+
+.two-container .life-style-logo {
+  position: relative;
+  top: 267px;
+  left: 19px;
+}
+
+.two-container .comments-likes-bodyimage {
+  position: relative;
+  top: 252px;
+  left: 294px;
+}
+
+.two-container .heading {
+  margin-top: 13px;
+  margin-left: 19px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #212121;
+  font-weight: 700;
+}
+
+.two-container .paragraph {
+  margin-top: 7px;
+  margin-left: 19px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  color: #696969;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.two-container .james-lamen-image {
+  position: relative;
+  left: 20px;
+  top: 29px;
+  background-position: center;
+  background-image: url("images/james.jpg");
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
 }
