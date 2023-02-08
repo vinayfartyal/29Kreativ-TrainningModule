@@ -537,10 +537,16 @@ div.like {
   font-family: "Open Sans";
 }
 
+.henry-little-content .line {
+  margin-top: 15px;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
 .henry-little-content .content-bottom-part {
   display: flex;
   margin-left: 20px;
-  margin-top: 35px;
+  margin-top: 19px;
 }
 
 .henry-little-content .author-image {
@@ -556,7 +562,7 @@ div.like {
 }
 
 .henry-little-content .author-name {
-  margin-top: 7px;
+  margin-top: 6px;
   margin-left: 10px;
   font-size: 14px;
   letter-spacing: 1px;
@@ -565,7 +571,7 @@ div.like {
 }
 
 .henry-little-content .author-date {
-  margin-top: 8px;
+  margin-top: 7px;
   margin-left: 9px;
 }
 
@@ -578,7 +584,7 @@ div.like {
 
 .henry-little-content .more_vert_icon {
   margin-left: 592px;
-  margin-top: 14px;
+  margin-top: 13px;
 }
 
 .black-icon-color {
@@ -601,7 +607,6 @@ div.like {
   display: inline-block;
   background-image: url("images/girl_image.jpg");
   width: 260px;
-  height: 165px;
 }
 
 .james-leman-blog .right-container,
@@ -692,10 +697,15 @@ div.like {
   margin-top: 14px;
 }
 
+.james-leman-blog .bottom,
+.james-leman-second-blog .bottom,
+.benjamin-blog .bottom {
+  display: flex;
+  margin-top: 11px;
+  margin-left: 20px;
+}
+
 .james-leman-blog .bottom .james-image {
-  position: relative;
-  top: 11px;
-  left: 20px;
   background-position: center;
   background-image: url("images/james.jpg");
   width: 50px;
@@ -703,43 +713,46 @@ div.like {
   border-radius: 25px;
 }
 
+.james-leman-blog .bottom .authorname-date-container,
+.james-leman-second-blog .bottom .authorname-date-container,
+.benjamin-blog .bottom .authorname-date-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .james-leman-blog .bottom .author-name,
 .james-leman-second-blog .bottom .author-name,
 .benjamin-blog .bottom .author-name {
-  position: relative;
-  bottom: 44px;
-  left: 81px;
-  opacity: 0.871;
+  margin-left: 11px;
+  margin-top: 5px;
   font-size: 14px;
   letter-spacing: 0.5px;
-  color: #000000;
+  color: #212121;
   font-weight: 500;
 }
 
 .james-leman-blog .bottom .date,
-.james-leman-second-blog .bottom .date {
-  position: relative;
-  bottom: 22px;
-  right: 28px;
+.james-leman-second-blog .bottom .date,
+.benjamin-blog .bottom .date {
+  margin-left: 9px;
+  margin-top: 9px;
 }
 
-.benjamin-blog .bottom .date {
+/* {
   position: relative;
   bottom: 22px;
   right: 43px;
-}
+} */
 
 .james-leman-blog .bottom .more_vert_icon,
 .james-leman-second-blog .bottom .more_vert_icon {
-  position: relative;
-  bottom: 26px;
-  left: 321px;
+  margin-top: 13px;
+  margin-left: 340px;
 }
 
 .benjamin-blog .bottom .more_vert_icon {
-  position: relative;
-  bottom: 26px;
-  left: 307px;
+  margin-top: 13px;
+  margin-left: 324px;
 }
 
 .james-leman-second-blog .skateboard-image {
@@ -750,9 +763,6 @@ div.like {
 }
 
 .james-leman-second-blog .bottom .james-second-image {
-  position: relative;
-  top: 11px;
-  left: 20px;
   background-position: center;
   background-image: url("images/james_2.jpg");
   width: 50px;
@@ -768,9 +778,6 @@ div.like {
 }
 
 .benjamin-blog .benjamin-image {
-  position: relative;
-  top: 11px;
-  left: 20px;
   background-position: center;
   background-image: url("images/henry_2.jpg");
   width: 50px;
