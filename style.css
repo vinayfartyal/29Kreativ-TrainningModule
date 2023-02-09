@@ -27,8 +27,7 @@ div.socialmedia-icons {
 }
 
 .social-custom-icon {
-  color: #ffffff;
-  opacity: 0.38;
+  color: #707070;
 }
 
 .login-icons {
@@ -66,8 +65,7 @@ div.socialmedia-icons {
 }
 
 .login-custom-icon {
-  color: #ffffff;
-  opacity: 0.38;
+  color: #707070;
   margin-right: 5px;
 }
 
@@ -96,10 +94,9 @@ div.socialmedia-icons {
 }
 
 .sign-in-logo {
-  opacity: 0.502;
   line-height: 27px;
   font-size: 12px;
-  color: #ffffff;
+  color: #6f6f6f;
   font-weight: 600;
   margin-right: 4px;
 }
@@ -109,31 +106,27 @@ a {
 }
 
 .vertical-logo {
-  opacity: 0.38;
   width: 1.5px;
   height: 22px;
-  background-color: #b4b4b4;
+  background-color: #545454;
 }
 
 .language-custom-icon {
-  color: #ffffff;
-  opacity: 0.38;
+  color: #707070;
   line-height: 90px;
   margin-right: 8px;
 }
 
 .eng-logo {
-  opacity: 0.502;
   line-height: 27px;
   font-size: 12px;
-  color: #ffffff;
+  color: #8c8c8c;
   font-weight: 600;
 }
 
 .arrow-custom-icon {
-  opacity: 0.502;
   line-height: 90px;
-  color: #ffffff;
+  color: #858585;
   width: 15px;
 }
 
@@ -202,10 +195,9 @@ a {
 }
 
 .search-icon-lines {
-  opacity: 0.38;
   width: 1px;
   height: 30px;
-  background-color: #b4b4b4;
+  background-color: #5c5c5b;
   margin-bottom: 4px;
 }
 
@@ -214,9 +206,8 @@ a {
 }
 
 .inspiration-container {
-  opacity: 0.702;
   font-size: 20px;
-  color: #ffffff;
+  color: #bdbebe;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -224,7 +215,6 @@ a {
 }
 
 .millennials-container {
-  opacity: 1.702;
   font-size: 42px;
   letter-spacing: 0.8px;
   color: #ffffff;
@@ -312,10 +302,9 @@ div.author {
 }
 
 div.date {
-  opacity: 0.541;
   font-size: 12px;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #7e7d7d;
   font-weight: 400;
   margin-left: 525px;
   margin-top: 10px;
@@ -329,10 +318,9 @@ div.date {
 div.comments-likes {
   margin-left: 467px;
   margin-top: 31px;
-  opacity: 0.541;
   font-size: 12px;
   letter-spacing: 0.5px;
-  color: #ffffff;
+  color: #aaaaaa;
   font-weight: 400;
   display: flex;
   justify-content: space-between;
@@ -382,9 +370,8 @@ div.like {
 }
 
 .custom-sort-blog {
-  opacity: 0.871;
   font-size: 12px;
-  color: #000000;
+  color: #212121;
   font-weight: 700;
   margin-top: 24px;
 }
@@ -412,9 +399,8 @@ div.like {
 .navbarbutton-margin {
   border-radius: 15px;
   background-color: #f5f5f5;
-  opacity: 0.871;
   font-size: 12px;
-  color: #000000;
+  color: #202020;
   font-weight: 530;
   text-align: center;
   padding: 10px 25px 6px 26px;
@@ -515,7 +501,7 @@ div.like {
   vertical-align: text-top;
 }
 
-.henry-little-blog .content h4 {
+.henry-little-blog h4 {
   font-size: 18px;
   line-height: 29px;
   color: #212121;
@@ -525,7 +511,7 @@ div.like {
   margin-left: 20px;
 }
 
-.henry-little-blog .content p {
+.henry-little-blog p {
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 26px;
@@ -603,7 +589,6 @@ div.like {
 }
 
 .james-leman-blog .girl-image {
-  display: inline-block;
   background-image: url("images/girl_image.jpg");
   width: 260px;
 }
@@ -625,8 +610,9 @@ div.like {
 .james-leman-second-blog .play-icon-align,
 .benjamin-blog .play-icon-align,
 .three-container .play-icon-align {
-  margin-top: 59px;
-  margin-left: 106px;
+  position: relative;
+  top: 59px;
+  left: 106px;
 }
 
 .james-leman-blog .inspiration-logo,
@@ -637,10 +623,9 @@ div.like {
   letter-spacing: 1px;
   color: #ffffff;
   font-weight: 400;
-  display: inline-block;
-  margin-left: -141px;
-  margin-top: 43px;
-  vertical-align: text-top;
+  position: relative;
+  right: 33px;
+  top: 97px;
 }
 
 .three-container .trip-logo {
@@ -657,16 +642,17 @@ div.like {
 .james-leman-second-blog .comments-likes-bodyimage,
 .benjamin-blog .comments-likes-bodyimage,
 .three-container .comments-likes-bodyimage {
-  margin-top: 132px;
+  position: relative;
+  top: 132px;
+  right: 21px;
   float: right;
   color: #ffffff;
-  margin-right: 21px;
 }
 
 .james-leman-blog .top .heading,
 .james-leman-second-blog .top .heading,
 .benjamin-blog .top .heading {
-  opacity: 0.871;
+  color: #212121;
   letter-spacing: 1px;
   font-weight: 700;
   margin-top: 9px;
@@ -677,7 +663,7 @@ div.like {
 .james-leman-second-blog .top .paragraph,
 .benjamin-blog .top .paragraph {
   line-height: 21px;
-  opacity: 0.871;
+  color: #3c3c3c;
   font-size: 14px;
   letter-spacing: 0.5px;
   font-weight: 400;
@@ -689,10 +675,8 @@ div.like {
 .james-leman-blog .right-container .line,
 .james-leman-second-blog .right-container .line,
 .benjamin-blog .right-container .line {
-  opacity: 0.122;
-  width: 560px;
   height: 0.3px;
-  background-color: #000000;
+  background-color: #ececec;
   margin-top: 14px;
 }
 
@@ -758,7 +742,6 @@ div.like {
   display: inline-block;
   background-image: url("images/skateboard.jpg");
   width: 260px;
-  height: 165px;
 }
 
 .james-leman-second-blog .bottom .james-second-image {
@@ -773,7 +756,6 @@ div.like {
   display: inline-block;
   background-image: url("images/sea_view.jpg");
   width: 260px;
-  height: 165px;
 }
 
 .benjamin-blog .benjamin-image {
@@ -815,7 +797,6 @@ div.like {
   margin-left: 20px;
   margin-top: 10px;
   line-height: 25px;
-  opacity: 0.871;
   font-size: 14px;
   letter-spacing: 1px;
   color: #212121;
@@ -830,7 +811,7 @@ div.like {
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 21px;
-  color: #212121;
+  color: #2f2f2f;
   font-weight: 400;
   font-family: "Open Sans";
 }
@@ -839,10 +820,9 @@ div.like {
 .second-blog .horizontal-line,
 .third-blog .horizontal-line {
   margin-top: 25px;
-  opacity: 0.122;
   width: 260px;
   height: 1px;
-  background-color: #000000;
+  background-color: #e0e0e0;
 }
 
 .first-blog .about-author-container,
@@ -1039,10 +1019,21 @@ div.like {
   font-family: "Open Sans";
 }
 
+.two-container .first-container .line,
+.two-container .second-container .line {
+  margin-top: 13px;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.two-container .first-container .about-author-container,
+.two-container .second-container .about-author-container {
+  margin-left: 19px;
+  margin-top: 15px;
+  display: flex;
+}
+
 .two-container .first-container .james-lamen-image {
-  position: relative;
-  left: 20px;
-  top: 29px;
   background-position: center;
   background-image: url("images/james.jpg");
   width: 50px;
@@ -1050,30 +1041,31 @@ div.like {
   border-radius: 25px;
 }
 
+.two-container .first-container .date-name-container,
+.two-container .second-container .date-name-container {
+  margin-top: 6px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
 .two-container .first-container .name,
 .two-container .second-container .name {
-  position: relative;
-  bottom: 16px;
-  left: 79px;
-  opacity: 0.871;
   font-size: 14px;
   letter-spacing: 1px;
-  color: #000000;
+  color: #212121;
   font-weight: 400;
 }
 
 .two-container .first-container .dateandtime,
 .two-container .second-container .dateandtime {
-  position: relative;
-  left: 78px;
-  bottom: 7px;
+  margin-top: 7px;
 }
 
 .two-container .first-container .more_vert,
 .two-container .second-container .more_vert {
-  position: relative;
-  bottom: 38px;
-  left: 365px;
+  margin-top: 11px;
+  margin-left: 176px;
 }
 
 .two-container .second-container .girl-styding-image {
@@ -1092,9 +1084,6 @@ div.like {
 }
 
 .two-container .second-container .miller-image {
-  position: relative;
-  left: 20px;
-  top: 29px;
   background-position: center;
   background-image: url("images/james_2.jpg");
   width: 50px;
